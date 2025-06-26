@@ -1,0 +1,142 @@
+{
+    "head0": {
+        "type": "header",
+        "description": "Settings for cpu-meter@talon"
+    },
+
+    "head1": {
+        "type": "header",
+        "description": "General"
+    },
+    "duration": {
+        "type": "combobox",
+        "default": 60,
+        "description": "Duration of the graph",
+        "tooltip": "Maximum among of time to show in the graph.",
+        "options" : {
+            "30 s": 30,
+            " 1 min": 60,
+            " 2 min": 120,
+            " 5 min": 300,
+            "10 min": 600,
+            "30 min": 1800,
+            "60 min": 3600
+        }
+    },
+    "refresh-interval": {
+        "type": "combobox",
+        "default": 1,
+        "description": "Refresh interval",
+        "tooltip": "How often a new value of the variable will be calculated.",
+        "options" : {
+            " 1 s": 1,
+            " 2 s": 2,
+            " 5 s": 5,
+            "10 s": 10,
+            "30 s": 30,
+            "60 s": 60
+        }
+    },
+
+
+    "head2": {
+        "type": "header",
+        "description": "Visual"
+    },
+    "background-color": {
+        "type": "colorchooser",
+        "default": "rgba(50,50,50,1)",
+        "description": "Background color",
+        "tooltip": "RGB or RGBA."
+    },
+    "text-color": {
+        "type": "colorchooser",
+        "default": "rgba(255,255,255,1)",
+        "description": "Text color",
+        "tooltip": "RGB or RGBA."
+    },
+    "line-color-ram": {
+        "type": "colorchooser",
+        "default": "rgba(96,178,225,1.0)",
+        "description": "Line color RAM used",
+        "tooltip": "RAM usage color"
+    },
+    "line-color-cpu1": {
+        "type": "colorchooser",
+        "default": "rgba(100,228,91,1.0)",
+        "description": "Line color Core 0 (modulus 8)",
+        "tooltip": "Core 0,8,16,etc... Alpha is ignored"
+    },
+    "line-color-cpu2": {
+        "type": "colorchooser",
+        "default": "rgba(228,220,36,1.0)",
+        "description": "Line color Core 1 (modulus 8)",
+        "tooltip": "Core 1,9,17,etc... Alpha is ignored"
+    },
+    "line-color-cpu3": {
+        "type": "colorchooser",
+        "default": "rgba(212,134,0,1.0)",
+        "description": "Line color Core 2 (modulus 8)",
+        "tooltip": "Core 2,10,18,etc... Alpha is ignored"
+    },
+    "line-color-cpu4": {
+        "type": "colorchooser",
+        "default": "rgba(208,25,63,1.0)",
+        "description": "Line color Core 3 (modulus 8)",
+        "tooltip": "Core 3,11,19,etc... Alpha is ignored"
+    },
+    "line-color-cpu5": {
+        "type": "colorchooser",
+        "default": "rgba(179,32,179,1.0)",
+        "description": "Line color Core 4 (modulus 8)",
+        "tooltip": "Core 4,12,20,etc... Alpha is ignored"
+    },
+    "line-color-cpu6": {
+        "type": "colorchooser",
+        "default": "rgba(127,61,203,1.0)",
+        "description": "Line color Core 5 (modulus 8)",
+        "tooltip": "Core 5,13,21,etc... Alpha is ignored"
+    },
+    "line-color-cpu7": {
+        "type": "colorchooser",
+        "default": "rgba(34,94,211,1.0)",
+        "description": "Line color Core 6 (modulus 8)",
+        "tooltip": "Core 6,14,22,etc... Alpha is ignored"
+    },
+    "line-color-cpu8": {
+        "type": "colorchooser",
+        "default": "rgba(38,198,198,1.0)",
+        "description": "Line color Core 7 (modulus 8)",
+        "tooltip": "Core 7,15,23,etc... Alpha is ignored"
+    },
+    "midline-color": {
+        "type": "colorchooser",
+        "default": "rgba(127,127,127,1)",
+        "description": "Grid color",
+        "tooltip": "RGB or RGBA."
+    },
+    "h-midlines": {
+        "type": "spinbutton",
+        "default": 5,
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "description": "Number of horizontal lines in the grid"
+    },
+    "v-midlines": {
+        "type": "spinbutton",
+        "default": 12,
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "description": "Number of vertical lines in the grid"
+    },
+    "scale-size": {
+        "type": "scale",
+        "default": 1,
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "description": "Scale factor for desklet size"
+    }
+}
