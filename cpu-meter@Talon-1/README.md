@@ -1,5 +1,6 @@
 # cpu-meter desklet
 Desklet to show CPU/Ram statistics in a single graph.
+![image](https://raw.githubusercontent.com/Talon-1/cpu-meter-cinnamon-desklet/main/cpu-meter@Talon-1/screenshot.png)
 
 This project is my own HEAVY modification derived from system-monitor-graph@rcassani
 
