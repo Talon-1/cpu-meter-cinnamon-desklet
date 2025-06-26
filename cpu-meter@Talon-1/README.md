@@ -16,7 +16,7 @@ This project is my own HEAVY modification derived from system-monitor-graph@rcas
 Each cores individual load is represented by one of eight configurable colors.
 If your CPU has more than 8 cores, the modulus of the core index by 8 is used to recycle the same colors
 
-Example: core 8 is the same color as core 1, core 9 is the same color as core 2, etc...
+Example: core 8 is the same color as core 0, core 9 is the same color as core 1, etc...
 
 The Math:
 
