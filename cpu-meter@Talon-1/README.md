@@ -36,6 +36,8 @@ Even if you had a lot of cores:
 
 # About
 
-CPU usage derived from /proc/stat file
+CPU usage derived from /proc/stat
 
 RAM usage derived from /proc/meminfo
+
+Temperature derived from console command: "sensors"
