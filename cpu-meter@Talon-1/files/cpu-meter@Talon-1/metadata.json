@@ -1,0 +1,9 @@
+{
+	"max-instances": "1",
+	"uuid": "cpu-meter@Talon-1",
+	"name": "Cpu Meter",
+	"description": "Cpu Meter Desklet",
+	"version": "1.0",
+	"prevent-decorations": false,
+	"author": "Talon-1"
+}
