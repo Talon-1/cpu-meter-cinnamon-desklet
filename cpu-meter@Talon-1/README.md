@@ -32,6 +32,8 @@ Even if you had a lot of cores:
 
 105 % 8 = 1 (Color2)
 
+![image](https://raw.githubusercontent.com/Talon-1/cpu-meter-cinnamon-desklet/main/cpu-meter@Talon-1/cpudesklet-options.png)
+
 # About
 
 CPU usage derived from /proc/stat file
